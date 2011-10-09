@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:weightSum="1"
+>
+	
+	<android.support.v4.view.ViewPager
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:id="@+id/imagePager"/>
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:gravity="center_horizontal"
+		android:id="@+id/selectedImageTitle"
+		android:layout_alignParentTop="true"
+		android:text="@string/noPicture"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+	>
+	</TextView>
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"
+	>
+		<Button
+			android:freezesText="false"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:width="100dip"
+			android:hapticFeedbackEnabled="false"
+			android:id="@+id/prevButton"
+			android:text="@string/prev"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="20dp"
+		></Button>
+		<Button
+			android:layout_height="wrap_content"
+			android:width="100dip"
+			android:layout_width="wrap_content"
+			android:id="@+id/nextButton"
+			android:text="@string/next"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="20dp"
+		></Button>
+	</RelativeLayout>
+</RelativeLayout>

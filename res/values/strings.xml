@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Моя галерея</string>
+    <string name="prev">Назад</string>
+    <string name="next">Вперед</string>
+    <string name="addPicture">Добавить изображение</string>
+    <string name="removePicture">Удалить изображение</string>
+    <string name="shortcutAdd">a</string>
+    <string name="shortcutRemove">r</string>
+    <string name="ok">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="pickPicture">Выберите картинку...</string>
+    <string name="chooseName">Напишите название...</string>
+    <string name="noPicture">Нет картинок</string>
+    <string name="pictureAdded">Картинка добавлена</string>
+    <string name="pictureRemoved">Картинка удалена</string>
+    <string name="noTitle">без подписи</string>
+</resources>

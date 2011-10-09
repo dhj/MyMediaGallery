@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:title="@string/addPicture"
+		android:id="@+id/addMenuItem" android:alphabeticShortcut="@string/shortcutAdd"></item>
+	<item
+		android:title="@string/removePicture"
+		android:id="@+id/removeMenuItem" android:alphabeticShortcut="@string/shortcutRemove"></item>
+
+</menu>
